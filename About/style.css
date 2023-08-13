@@ -1,0 +1,142 @@
+/* ----------About---------- */
+.header-2 {
+    width: 100%;
+    background: #e9f2fa; 
+    z-index: 100;
+  }
+  nav a:hover {
+    border-bottom: 3px solid #4c7397;
+  }
+  .fa {
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #f40083;
+    color: white;
+  }
+  .fa-phone{
+      color: white;
+  }
+  li {
+    list-style: none;
+  }
+  
+  nav {
+    overflow: hidden;
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav li {
+    display: inline;
+    float: left;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+      padding: 20px;
+    transition: 0.3s all;
+  }
+  
+  .logo {
+    float: left;
+      margin-top: 8px;
+  }
+  .logo1 {
+    float: left;
+      margin-top: 8px;
+  }
+  .logo2{
+    float: right;
+      margin-top: -30px;
+  }
+  
+  
+#about {
+    padding: 30px 0;
+    background: #aac7e1;
+}
+#about .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    font-family: sans-serif;
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #202239;
+      background: #0f0d1e;
+      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+.about-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    color: #100d0d;
+    
+}
+
+.about-list div {
+    background: #bfbbbb;
+    padding: 40px;
+    font-size: 15px;
+    line-height: 30 px;
+    font-weight: 300;
+    margin-top: 90px;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    background-color:#c6c8df9c
+}
+
+.about-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.about-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about-list div:hover {
+    background-image: url(6.jpg);
+    transform: translateY(-10px);
+}
+#bc{
+    background-image: url(a.png);
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

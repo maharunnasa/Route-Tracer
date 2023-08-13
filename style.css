@@ -1,0 +1,154 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.search-container{
+    background: #4c7397; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+   }
+.header-1 {
+  width: 100%;
+  background:#4c7397; 
+  z-index: 100;
+  padding: 10px 60px 0px 0px; 
+}
+.fa {
+  padding: 5px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #f40083;
+  color: white;
+}
+.fa-phone{
+    color: white;
+}
+.header-2 {
+  width: 100%;
+  background: #e9f2fa; 
+  z-index: 100;
+}
+nav a:hover {
+  border-bottom: 3px solid #4c7397;
+}
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+    padding: 20px;
+  transition: 0.3s all;
+}
+
+.logo {
+  float: left;
+    margin-top: 8px;
+}
+.logo1 {
+  float: left;
+    margin-top: 8px;
+}
+.logo2 {
+  float: right;
+    margin-top: -35px;
+}
+/* 
+get in turch 
+*/
+
+#service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+  background-color: #b5d0ebe0;
+  margin-top: 50px;
+}
+
+#service h1{
+	padding-bottom: 70px;
+  color:rgb(83, 78, 78);
+}
+#service-col1{
+  width: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 2px white;
+ background-color: white;
+}
+#service-col2{
+  width: 370px;
+      margin: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      border: 2px white;
+      background-color: white;
+  
+}
+#service-col3{
+  width: 400px;
+      margin: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      border: 2px white;
+      background-color: white;
+}
+#text{
+  color:#81a5c9e0;
+}
+
+/* 
+Workflow 
+*/
+#workflow{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.copyright i {
+    color: #ff004f;
+    transition: color 0.5s;
+}
+
+.copyright i:hover {
+    color: #fff;
+}

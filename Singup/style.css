@@ -1,0 +1,45 @@
+body {
+/* fallback for old browsers */
+background: #6a11cb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+}
+#card{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;  
+  border-radius: 50%;
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  border-radius: 50%;
+}
+
+#p1{
+    margin-top: 40px;
+}
